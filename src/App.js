@@ -1,4 +1,5 @@
 import React,{useState} from 'react';
+import TodoForm from './components/TodoForm';
 import './App.css';
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-       Todo App
+       <TodoForm/>
       </header>
     </div>
   );
