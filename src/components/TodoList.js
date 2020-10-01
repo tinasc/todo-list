@@ -1,6 +1,7 @@
 import React from 'react'
+import Todo from "./Todo";
 
-function TodoList() {
+function TodoList({todos}) {
     return (
         <ul>
             {todos.map( todo =>(

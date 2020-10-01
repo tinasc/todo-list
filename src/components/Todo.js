@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-function Todo() {
+function Todo({todo}) {
     return (
-        <ul>
-            {todos.map( todo =>(
-                <Todo />
-            ))}
-        </ul>
+        <div className="todo-checkbox">
+            <input type="checkbox"/>
+                {todo.task}
+            <button>X</button>
+        </div>
     );
 }
 

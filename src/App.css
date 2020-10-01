@@ -2,6 +2,20 @@
   text-align: center;
 }
 
+.todo-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+li {
+  text-align: initial;
+}
+
+.todo-checkbox{
+   display: flex;
+  }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
