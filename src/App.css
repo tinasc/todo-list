@@ -6,25 +6,19 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-bottom: 40px;
 }
 
 li {
   text-align: initial;
 }
-
-.todo-checkbox{
-   display: flex;
-  }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  text-align: center;
+  padding-bottom: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.todo-checkbox{
+   display:flex;
 }
 
 .App-header {
@@ -36,17 +30,17 @@ li {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+.todo-checkbox button{
+  border-radius:75%;
+  margin-left: 12px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.todo-checkbox input{
+  margin-right: 20px;
+  margin-top: 12px;
+
 }

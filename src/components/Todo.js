@@ -10,7 +10,7 @@ function Todo({ todo, toggleComplete, removeTodo }) {
     }
     return (
         <div className="todo-checkbox">
-            <input type="checkbox" checked={todo.completed} onClick={handleCheckboxClick}/>
+            <input type="checkbox" checked={todo.completed} onClick={handleCheckboxClick} />
             <div style={{
                 color: "white",
                 textDecoration: todo.completed ? "line-through" : null
