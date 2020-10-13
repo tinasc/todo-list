@@ -26,6 +26,7 @@ function TodoForm({addTodo}) {
             label="Task"
             type="text"
             name="task"
+            placeholder="Enter task"
             value={todo.task}
             onChange={handleTaskInputChange}
           />

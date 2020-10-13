@@ -12,6 +12,7 @@
 li {
   text-align: initial;
 }
+
 h1 {
   text-align: center;
   padding-bottom: 40px;
@@ -30,17 +31,14 @@ h1 {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-
 }
 
 .todo-checkbox button{
   border-radius:75%;
   margin-left: 12px;
-  
 }
 
 .todo-checkbox input{
   margin-right: 20px;
   margin-top: 12px;
-
 }

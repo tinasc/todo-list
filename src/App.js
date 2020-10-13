@@ -45,7 +45,7 @@ function App() {
   return (
     <div className="App ">
       <header className="App-header">
-        <h1>Todo</h1>
+        <h1>To do List</h1>
         <TodoForm addTodo={addTodo}/>
        <TodoList 
         todos={todos}
