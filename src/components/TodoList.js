@@ -1,6 +1,5 @@
-import React from 'react'
+import React from 'react';
 import Todo from "./Todo";
-
 
 function TodoList({ todos, removeTodo, toggleComplete }) {
     return (
@@ -18,3 +17,4 @@ function TodoList({ todos, removeTodo, toggleComplete }) {
 }
 
 export default TodoList;
+

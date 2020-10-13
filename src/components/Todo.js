@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function Todo({ todo, toggleComplete, removeTodo }) {
     function handleCheckboxClick() {
       toggleComplete(todo.id);
@@ -12,13 +13,17 @@ function Todo({ todo, toggleComplete, removeTodo }) {
         <div className="todo-checkbox">
             <input type="checkbox" checked={todo.completed} onClick={handleCheckboxClick} />
             <div style={{
-                color: "white",
+                color: "grey",
                 textDecoration: todo.completed ? "line-through" : null
                   }}>
+            <div className="todo-align">
                 {todo.task}
+                </div>
             </div>
-            <button onClick={handleRemoveClick}>X</button>
-        </div>
+            <div className="todo-align">
+               <i onClick={handleRemoveClick} className='fa fa-trash'></i>
+           </div>
+      </div>
     );
 }
 
